@@ -4,20 +4,53 @@
     padding: 0px;
 }
 .container{
+    display: flex;
+    flex-direction: row;
     background-color:bisque;
     width:100%;
     min-height: 971px;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
 }
+.container2{
+    background-color:bisque;
+    width:100%;
+    min-height: 971px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.img{
+    position: absolute;
+    
+}
 .img3{
    position: absolute;
-   bottom: 180px;
+   bottom: 198px;
    left: 288px;
+   
 }
 .img4{
     position: absolute;
     top: 230px;
+}
+.img5{
+    position: absolute;
+    top: 833px;
+    left: -66px;
+}
+.btn{
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 15px;
+    width: 341px;
+    height: 61px;
+    font-size:28px ;
+    font-weight: bold;
+}                                 
+.text{
+    padding: 90px;
+    line-height: 50px;
+    font-size: 20px;
 }
     
     
